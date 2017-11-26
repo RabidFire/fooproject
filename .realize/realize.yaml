@@ -13,8 +13,12 @@ schema:
   commands:
     test:
       status: true
+      args:
+      - ./...
     install:
       status: true
+      args:
+      - ./...
     run: true
   watcher:
     paths:

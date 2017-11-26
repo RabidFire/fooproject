@@ -1,11 +1,11 @@
-package main_test
+package api_test
 
 import (
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
-	. "github.com/RabidFire/fooproject"
+	. "github.com/RabidFire/fooproject/pkg/api"
 )
 
 func TestRootHandler(t *testing.T) {
