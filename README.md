@@ -1,0 +1,2 @@
+# fooproject
+Testing Go + Realize
